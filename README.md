@@ -71,6 +71,35 @@ Example:
 dotnet run
 The API will be available at https://localhost:7240/api/Chat
 
+### Future Improvements
+
+Planned future enhancements include:
+
+- Semantic vector search using Azure OpenAI embeddings
+- Cosine similarity retrieval
+- Persistent conversation memory
+- Conversation/session storage
+- Advanced ranking and retrieval scoring
+- Streaming AI responses
+- Authentication and authorization
+- Conversation analytics and telemetry
+- Docker containerization
+- Azure deployment pipeline
+- Automated testing
+
+## Example Questions
+
+Example prompts the chatbot can answer:
+
+- "What AI technologies has Allen worked with?"
+- "What CRM experience does Allen have?"
+- "Tell me about the AI chatbot project."
+- "What enterprise systems has Allen built?"
+- "What blockchain experience does Allen have?"
+- "What backend technologies does Allen specialize in?"
+
+
+
 ## Key Features
 
 - ASP.NET Core Web API backend
