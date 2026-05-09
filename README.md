@@ -18,6 +18,31 @@ The API receives chat requests from a Blazor frontend, retrieves relevant knowle
 
 ![Chat Entry](docs/images/WolfAIchatmainentry.png)
 
+## Technologies Used
+
+### Backend
+- ASP.NET Core Web API
+- C#
+- REST APIs
+
+### AI Integration
+- Azure OpenAI
+- Prompt Engineering
+- Context Injection
+- Retrieval-Augmented Generation (RAG)
+
+### Retrieval System
+- Markdown Knowledge Base
+- Section-Based Retrieval
+- Keyword Matching
+
+### Frontend
+- Blazor
+
+### Tooling
+- Git
+- Visual Studio
+
 ## Key Features
 
 - ASP.NET Core Web API backend
