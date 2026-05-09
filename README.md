@@ -8,6 +8,16 @@ This project demonstrates a production-style AI application architecture built w
 
 The API receives chat requests from a Blazor frontend, retrieves relevant knowledge from structured markdown files, builds a context-aware prompt, and returns an AI-generated response.
 
+## Screenshots
+
+### AI Chat Interface
+
+![AI Chat Interface](docs/images/WolfAIchatmain.png)
+
+### Chat Entry Experience
+
+![Chat Entry](docs/images/WolfAIchatmainentry.png)
+
 ## Key Features
 
 - ASP.NET Core Web API backend
