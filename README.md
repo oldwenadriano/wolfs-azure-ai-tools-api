@@ -43,6 +43,34 @@ The API receives chat requests from a Blazor frontend, retrieves relevant knowle
 - Git
 - Visual Studio
 
+## Local Development Setup
+
+### Requirements
+
+- .NET 8 SDK
+- Azure OpenAI Resource
+- Visual Studio 2022
+
+### Configuration
+
+This project uses ASP.NET Core User Secrets for local development.
+
+Example:
+
+```json
+{
+  "AzureOpenAI": {
+    "Endpoint": "YOUR_ENDPOINT",
+    "ApiKey": "YOUR_API_KEY",
+    "DeploymentName": "YOUR_DEPLOYMENT_NAME"
+  }
+}
+
+### Run the API
+
+dotnet run
+The API will be available at https://localhost:7240/api/Chat
+
 ## Key Features
 
 - ASP.NET Core Web API backend
